@@ -2,7 +2,6 @@ import { assert } from 'chai';
 import { expect } from 'chai';
 import Trie from '../lib/Trie';
 
-//Trie should take an argument of a word
 
 describe('Trie', () => {
   let trie;
@@ -45,7 +44,7 @@ describe('SUGGEST', () => {
     trie = new Trie();
   });
 
-  it('should take in an argument of prefix', () => {
+  it('should be able to take a prefix as an argument', () => {
 
   });
 
